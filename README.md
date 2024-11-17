@@ -12,53 +12,53 @@ The Library Management System is a RESTful API built using Java and Spring Boot.
 
 - Retrieve a Book by ISBN: Fetch the details of a specific book using its unique ISBN number.
 
-Search Books by Title or Author: Search for books using either the title or author (or both).
+- Search Books by Title or Author: Search for books using either the title or author (or both).
 
-Borrow a Book: Borrow a book, which marks it as unavailable in the library.
+- Borrow a Book: Borrow a book, which marks it as unavailable in the library.
 
-Return a Book: Return a previously borrowed book, marking it as available again.
+- Return a Book: Return a previously borrowed book, marking it as available again.
 
 <b>How to Run the Application</b>
 
--Prerequisites
+<b>Prerequisites</b>
 
-Java 17 installed on your system.
+- Java 17 installed on your system.
 
-Maven installed (usually, it's included in IntelliJ, but you can also install it separately).
+- Maven installed (usually, it's included in IntelliJ, but you can also install it separately).
 
-IntelliJ IDEA (or any other Java IDE).
+- IntelliJ IDEA (or any other Java IDE).
 
--Steps to Run
+<b>Steps to Run</b>
 
-Clone the Project: If you haven't already, clone the repository using the following command:
+1. Clone the Project: If you haven't already, clone the repository using the following command:
 
 git clone https://github.com/mganzert/library-management
 
-Open the Project:
+2. Open the Project:
 
-Open IntelliJ IDEA.
+3. Open IntelliJ IDEA.
 
-Click Open and navigate to the folder where you cloned the project.
+4. Click Open and navigate to the folder where you cloned the project.
 
-Build the Project:
+5. Build the Project:
 
-Allow the dependencies to download. Maven should automatically download the necessary dependencies.
+- Allow the dependencies to download. Maven should automatically download the necessary dependencies.
 
-Go to the top menu and click Build -> Rebuild Project to ensure everything is ready.
+- Go to the top menu and click Build -> Rebuild Project to ensure everything is ready.
 
-Run the Application:
+6. Run the Application:
 
-Locate the file LibraryApplication.java in the folder src/main/java/com/example/library.
+- Locate the file LibraryApplication.java in the folder src/main/java/com/example/library.
 
-Click on the green play button next to the main() method to run the application.
+- Click on the green play button next to the main() method to run the application.
 
-Access the API:
+7. Access the API:
 
-Once the application is running, you can test the endpoints using Postman or cURL.
+- Once the application is running, you can test the endpoints using Postman or cURL.
 
-The base URL for accessing the API is http://localhost:8080/books.
+- The base URL for accessing the API is http://localhost:8080/books.
 
-Example Endpoints
+<b>Example Endpoints</b>
 
 Add a New Book (POST): http://localhost:8080/books
 
@@ -72,26 +72,26 @@ Borrow a Book (PUT): http://localhost:8080/books/{isbn}/borrow
 
 Return a Book (PUT): http://localhost:8080/books/{isbn}/return
 
-Technologies Used
+<b>Technologies Used</b>
 
-Java 17
+- Java 17
 
-Spring Boot 3.3.5
+- Spring Boot 3.3.5
 
-H2 In-Memory Database (for data storage during runtime)
+- H2 In-Memory Database (for data storage during runtime)
 
-Assumptions and Limitations
+<b>Assumptions and Limitations</b>
 
-The ISBN is assumed to be unique for each book.
+- The ISBN is assumed to be unique for each book.
 
-No persistent storage is implemented, meaning that data is lost every time the application stops.
+- No persistent storage is implemented, meaning that data is lost every time the application stops.
 
-The application uses an in-memory H2 database for simplicity and testing purposes.
+- The application uses an in-memory H2 database for simplicity and testing purposes.
 
-Future Improvements
+<b>Future Improvements</b>
 
-Implement user authentication to control who can borrow or return books.
+- Implement user authentication to control who can borrow or return books.
 
-Add persistent storage to keep the data intact even after restarting the application.
+- Add persistent storage to keep the data intact even after restarting the application.
 
-Add more advanced search options and pagination for listing books.
+- Add more advanced search options and pagination for listing books.
