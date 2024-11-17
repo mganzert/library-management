@@ -6,11 +6,11 @@ The Library Management System is a RESTful API built using Java and Spring Boot.
 
 <b>Features Implemented</b>
 
-Add a New Book: Users can add a new book to the library by providing information like title, author, ISBN, published year, and availability status.
+- Add a New Book: Users can add a new book to the library by providing information like title, author, ISBN, published year, and availability status.
 
-List All Books: Retrieve a list of all books currently available in the library.
+- List All Books: Retrieve a list of all books currently available in the library.
 
-Retrieve a Book by ISBN: Fetch the details of a specific book using its unique ISBN number.
+- Retrieve a Book by ISBN: Fetch the details of a specific book using its unique ISBN number.
 
 Search Books by Title or Author: Search for books using either the title or author (or both).
 
@@ -18,9 +18,9 @@ Borrow a Book: Borrow a book, which marks it as unavailable in the library.
 
 Return a Book: Return a previously borrowed book, marking it as available again.
 
-How to Run the Application
+<b>How to Run the Application</b>
 
-Prerequisites
+-Prerequisites
 
 Java 17 installed on your system.
 
@@ -28,7 +28,7 @@ Maven installed (usually, it's included in IntelliJ, but you can also install it
 
 IntelliJ IDEA (or any other Java IDE).
 
-Steps to Run
+-Steps to Run
 
 Clone the Project: If you haven't already, clone the repository using the following command:
 
