@@ -1,4 +1,4 @@
-<b> Library Management System<b/>
+<b> Library Management System </b>
 
 Project Description
 
