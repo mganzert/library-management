@@ -1,10 +1,10 @@
 <b> Library Management System </b>
 
-Project Description
+<b> Project Description </b>
 
 The Library Management System is a RESTful API built using Java and Spring Boot. This project allows users to manage a collection of books in a library by providing various functionalities, including adding new books, listing all books, searching by title or author, borrowing, and returning books. It is a simple and educational project designed for learning purposes and to get familiar with building APIs using Spring Boot.
 
-Features Implemented
+<b>Features Implemented</b>
 
 Add a New Book: Users can add a new book to the library by providing information like title, author, ISBN, published year, and availability status.
 
